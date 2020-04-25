@@ -32,9 +32,11 @@ Description: With this API developers will be able to register and Authenticate 
 
 > Response Exemple :
 
+
 {
     "message": "User registered successfully!"
 }
+
 
 
 > POST(/api/auth/login)
