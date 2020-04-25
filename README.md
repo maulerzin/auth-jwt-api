@@ -31,12 +31,19 @@ Description: With this API developers will be able to register and Authenticate 
 }
 
 > POST(/api/auth/login)
+
 >Description: This resource logs in the system.
+
 > Payload Example :
+
 > {
+
 >	"username": "usuario2",
+
 >	"password":"123456789"
+
 >}
+
 
 > GET(/api/test/user)
 >Description: This resource tests the logged in user with the JWT Token received on login in the Header with "Athorization" Key
