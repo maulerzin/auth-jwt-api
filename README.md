@@ -15,18 +15,19 @@ Description: With this API developers will be able to register and Authenticate 
 >Description: This resource rigerters a client and store the rececived data in a table "clients".
 > Payload Example :
 > {
-	"email":"user10@test.com",
-	"username": "user10",
-	"password":"123456789"
+>	"email":"user10@test.com",
+>	"username": "user10",
+>	"password":"123456789"
 }
 
 > POST(/api/auth/login)
 >Description: This resource logs in the system.
 > Payload Example :
 > {
-	"username": "usuario2",
-	"password":"123456789"
-}
+>	"username": "usuario2",
+>	"password":"123456789"
+>}
+
 > GET(/api/test/user)
 >Description: This resource tests the logged in user with the JWT Token received on login in the Header with "Athorization" Key
 
