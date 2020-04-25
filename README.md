@@ -20,13 +20,13 @@ Description: With this API developers will be able to register and Authenticate 
 
 > Payload Example :
 
-> {
+ {
 
->	"email":"user10@test.com",
+	"email":"user10@test.com",
 
->	"username": "user10",
+	"username": "user10",
 
->	"password":"123456789"
+	"password":"123456789"
 
 }
 
@@ -36,15 +36,10 @@ Description: With this API developers will be able to register and Authenticate 
 
 > Payload Example :
 
-> {
+ {
 
->	"username": "usuario2",
+	"username": "usuario2",
 
->	"password":"123456789"
+	"password":"123456789"
 
->}
-
-
-> GET(/api/test/user)
->Description: This resource tests the logged in user with the JWT Token received on login in the Header with "Athorization" Key
-
+}
