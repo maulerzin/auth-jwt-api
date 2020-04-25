@@ -1,6 +1,6 @@
 # Client Register and Authentication API
 Description: With this API clients can register and Authenticate in a system.
-Version: 1.0.0
+>Version: 1.0.0
 > [Secure Spring Boot App with Spring Security & JWT Authentication](https://bezkoder.com/spring-boot-jwt-authentication/)
 
 > [For MongoDB](https://bezkoder.com/spring-boot-jwt-auth-mongodb/)
