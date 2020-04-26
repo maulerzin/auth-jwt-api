@@ -2,7 +2,7 @@
 Description: With this API developers will be able to register and Authenticate clients in a system.
 >Version: 1.0.0.
 
->Technologies: For this API i've used: 
+>Technologies - For this API i've used: 
 
 >springboot framework with java 11.
 
