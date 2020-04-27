@@ -20,7 +20,7 @@ Description: With this API developers will be able to register and Authenticate 
 
 > Payload Example :
 
- {
+	 {
 
 	"email":"user10@test.com",
 
@@ -28,14 +28,14 @@ Description: With this API developers will be able to register and Authenticate 
 
 	"password":"123456789"
 
-}
+    }
 
 > Response Exemple :
 
 
-{
+	{
     "message": "User registered successfully!"
-}
+	}
 
 
 
@@ -45,17 +45,17 @@ Description: With this API developers will be able to register and Authenticate 
 
 > Payload Example :
 
- {
+ 	{
 
 	"username": "usuario2",
 
 	"password":"123456789"
 
-}
+	}
 
 > Response Example :
 
-{
+	{
     "id": 3,
     
     "username": "user1000",
@@ -65,6 +65,6 @@ Description: With this API developers will be able to register and Authenticate 
     "accessToken": "eyJhbGciOiJub25lIn0.eyJzdWIiOiJ1c2VyMTAwMCIsImlhdCI6MTU4Nzg0NTM5NSwiZXhwIjoxNTg3OTMxNzk1fQ.",
     
     "tokenType": "Bearer"
-}
+	}
 
 >OBS: This application is ready to run locally too.
